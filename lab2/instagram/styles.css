@@ -1,0 +1,237 @@
+/* .image{
+    margin-left: 300px;
+    
+}
+
+@font-face {
+    font-family: 'Instagram Sans';
+    src: url('InstagramSans-Headline.woff2') format('woff2');
+}
+body {
+    font-family: 'Instagram Sans', sans-serif;
+} */
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#ig-left{
+    float: left;
+    position: relative;
+    left: 330px;
+    
+}
+
+#ig-right{
+    float: right;
+    position: relative;
+    right: 320px;
+    top: 25px;
+}
+
+.form-area {
+    border: 1px solid rgb(214, 214, 214);
+    text-align: center;
+    width: 348px;
+}
+
+#login-area {
+    height: 398.5px;
+}
+
+#ig-logo {
+    margin-top: 43px;
+}
+
+#ig-logo:hover{
+    cursor: pointer;
+}
+
+input {
+    font-size: 11.7px;
+    width: 256px;
+    color: black;
+    background-color: #fafafa;
+    height: 34px;
+    border: 1.5px solid rgb(227, 227, 227);
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+input::placeholder{
+    color:#8b8b8b;
+}
+
+input:focus{
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+#email {
+    margin-top: 34px;
+}
+
+#password {
+    margin-top: 6px;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    height: 32px;
+    width: 268px;
+    font-size: 13px;
+    background-color: #4cb5f9;
+    margin-top: 14px;
+}
+
+#form-separator {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+hr {
+    width: 103px;
+    display: inline-block;
+    border: none;
+    border-top: 1px solid rgb(227, 227, 227);
+}
+
+#first-hr {
+    margin-right: 12px;
+}
+
+#second-hr {
+    margin-left: 12px;
+}
+
+#or {
+    color: rgb(115, 115, 115);
+    position: relative;
+    bottom: 3px;
+    letter-spacing: -0.5px;
+}
+
+#login-with-fb {
+    margin-top: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active{
+    opacity: 0.6;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#fb-logo {
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#fb-login-text {
+    font-size: 14px;
+    color: #385185;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+#forgot-pass {
+    position: relative;
+    top: 16px;
+    font-size: 12px;
+    color: rgb(0, 55, 107);
+}
+
+#reg-area {
+    margin-top: 10px;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 21px;
+}
+
+#reg-link {
+    color: rgb( 0, 149, 246);
+    font-weight: 500;
+}
+
+#hint {
+    text-align: center;
+    margin-top: 16px;
+}
+
+#apps {
+    font-size: 14px;
+}
+
+#download-icons {
+    margin-top: 14px;
+}
+
+#google-play-icon {
+    position: relative;
+    top: 1px;
+}
+
+#apple-icon {
+    position: relative;
+    left: 3px;
+    width: 150px;
+    height: 48px;
+}
+
+footer {
+    position: absolute;
+    top: 837px;
+    right: 362.3px;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+    text-align: center;
+    height: 100px;
+}
+
+ul {
+    display: inline-block;
+    cursor: default;
+}
+li {
+    display: inline-block;
+    padding-right: 12.5px;
+}
+
+#ftr-other {
+    position: relative;
+    top: 7px;
+    left: 4px;
+}
+
+#languages {
+    position: relative;
+    top: 1px;
+    left: 0.5px;
+}
+
+#languages:hover{
+    cursor: pointer;
+}
+
+#copyriting {
+    position: relative;
+    left: 21.5px;
+}
+
+.another-page:hover {
+    text-decoration: underline;
+    text-decoration-color: #385185;
+}
+#footer{
+    left: 0;
+    width: 100%;
+}
