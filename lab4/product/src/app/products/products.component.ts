@@ -153,7 +153,7 @@ export class ProductsComponent {
       id: 12,
       name: 'Майка Elitex белый',
       description: 'Майка Elitex белый',
-      price: 1111111,
+      price: 984,
       rating: 5,
       images: [
         'https://resources.cdn-kaspi.kz/img/m/p/p83/p78/21434176.png?format=gallery-medium',
